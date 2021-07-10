@@ -1,9 +1,17 @@
+
 function setup() {
-  createCanvas(800,400);
-  createSprite(400, 200, 50, 50);
+  createCanvas(8000,4000);
+  
 }
 
 function draw() {
-  background(255,255,255);  
+  background("orange");  
+  createSprite(500,500,200,200)
+  createSprite(10,500,200,200)
+  createSprite(500,20,200,200)
+  createSprite(50,500,200,200)
+  createSprite(700,700,200,200)
+  
   drawSprites();
 }
+
